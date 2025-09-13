@@ -26,7 +26,7 @@ conda clean --all
 
 
 ### Running Training
-Training configuration handled by config files in `configs` directory. As an exaample, you can run experiments with the following commands.
+Training configuration handled by config files in `configs` directory. As an example, you can run experiments with the following commands.
 ```bash
 conda activate graphgps
 python main.py --cfg configs/vocsuperpixels_UnitaryGCN_enhanced.yaml wandb.use False

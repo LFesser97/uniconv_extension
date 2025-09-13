@@ -32,7 +32,7 @@ For M1/M2/M3 Mac users, `pyg` (PyTorch Geometric) needs to be installed from sou
 This section provides instructions on how to reproduce the experiments outlined in the paper. Note that some of the results may not be reproduced *exactly*, given that some of the operations used are intrinsically non-deterministic on the GPU, as explained [here](https://github.com/pyg-team/pytorch_geometric/issues/92). However, you should obtain results very close to those in the paper.
 
 
-To run the Dir-Uni experiments for the different datasets yourself, you can use the following type of command in the terminal:
+To run the experiments for the different datasets yourself, you can use the following type of command in the terminal:
 
 ```bash
 python -m src.run --dataset directed-roman-empire --model dir-uni --num_runs 10 --patience 200 --normalize
