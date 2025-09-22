@@ -14,7 +14,7 @@ parser.add_argument("--self_loops", action="store_true", help="Whether to add se
 parser.add_argument("--transpose", action="store_true", help="Whether to use transpose of the graph")
 
 ### Model Args
-parser.add_argument("--model", type=str, help="Model type", default="dir-uni")
+parser.add_argument("--model", type=str, help="Model type", default="dune")
 parser.add_argument("--hidden_dim", type=int, help="Hidden dimension of model", default=128)
 parser.add_argument("--num_layers", type=int, help="Number of GNN layers", default=5)
 parser.add_argument("--dropout", type=float, help="Feature dropout", default=0.0)
