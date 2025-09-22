@@ -367,7 +367,7 @@ def get_model(args):
             alpha=args.alpha,
             learn_alpha=args.learn_alpha,
         )
-    elif args.model == "uni":
+    elif args.model == "unigcn":
         return UnitaryGCN(
             num_features=args.num_features,
             hidden_dim=args.hidden_dim,
@@ -375,7 +375,7 @@ def get_model(args):
             num_classes=args.num_classes,
             dropout=args.dropout,
         )
-    elif args.model == "dir-uni":
+    elif args.model == "dune":
         return DirectedUnitaryGCN(
             num_features=args.num_features,
             hidden_dim=args.hidden_dim,
