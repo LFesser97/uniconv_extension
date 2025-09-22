@@ -4,7 +4,7 @@ import logging
 parser = argparse.ArgumentParser("Directed Graph Neural Network")
 
 ### Dataset Args
-parser.add_argument("--dataset", type=str, help="Name of dataset", default="chameleon")
+parser.add_argument("--dataset", type=str, help="Name of dataset", default="directed-roman-empire")
 parser.add_argument("--dataset_directory", type=str, help="Directory to save datasets", default="dataset")
 parser.add_argument("--checkpoint_directory", type=str, help="Directory to save checkpoints", default="checkpoint")
 
